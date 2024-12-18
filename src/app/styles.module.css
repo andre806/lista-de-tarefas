@@ -1,0 +1,56 @@
+/* Estilos gerais da página */
+.home {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .div2 h3,
+  .div2 h4,
+  .div2 h5 {
+    font-family: 'Arial', sans-serif;
+    color: #007acc;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .div2 a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .div2 a:hover {
+    color: #005fa3;
+  }
+  
+  .div2 h3 {
+    font-size: 1.25rem;
+  }
+  
+  .div2 h4 {
+    font-size: 1.1rem;
+  }
+  
+  .div2 h5 {
+    font-size: 1rem;
+  }
+  

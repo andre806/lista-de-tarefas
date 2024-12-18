@@ -1,0 +1,91 @@
+/* Estilos para a página de tarefas concluídas */
+.container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .h2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .listaTarefas {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .itemTarefa {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .itemTarefa:hover {
+    transform: scale(1.02);
+  }
+  
+  .tarefaSpan {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .remove {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .remove:hover {
+    background-color: #d32f2f;
+  }
+  
+  .emptyMessage {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 30px;
+  }
+  
+  .button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #005fa3;
+  }
+  
+  .clearButton {
+    background-color: #f44336;
+    margin-top: 20px;
+  }
+  
+  .clearButton:hover {
+    background-color: #d32f2f;
+  }
+  

@@ -1,0 +1,69 @@
+/* Estilos gerais para a página Tarefas para Fazer */
+.container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .listaTarefas {
+    margin-top: 30px;
+  }
+  
+  .listaTarefas ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listaTarefas li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .listaTarefas li span {
+    flex: 1;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #005fa3;
+  }
+  
+  .cancelar {
+    background-color: #f44336;
+  }
+  
+  .cancelar:hover {
+    background-color: #d32f2f;
+  }
+  
+  .excluir {
+    background-color: #ff9800;
+  }
+  
+  .excluir:hover {
+    background-color: #e65100;
+  }
+  

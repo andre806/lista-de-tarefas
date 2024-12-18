@@ -1,0 +1,118 @@
+/* Estilos para a página de criar novas tarefas */
+.container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .h2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #007acc;
+    outline: none;
+  }
+  
+  .button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #005fa3;
+  }
+  
+  .h2 {
+    font-size: 1.7rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  /* Criação de classes locais para ul e li */
+  .listaTarefas {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .itemTarefa {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .itemTarefa:hover {
+    transform: scale(1.02);
+  }
+  
+  .tarefaSpan {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .remove {
+    background-color: #f44336;
+  }
+  
+  .remove:hover {
+    background-color: #d32f2f;
+  }
+  
+  .enviar {
+    background-color: #007acc;
+  }
+  
+  .enviar:hover {
+    background-color: #005fa3;
+  }
+  
+  .cancelar {
+    background-color: #f44336;
+    margin-left: 10px;
+  }
+  
+  .cancelar:hover {
+    background-color: #d32f2f;
+  }
+  
